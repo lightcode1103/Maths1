@@ -1,0 +1,349 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: url(/images5.png);
+  background-size: cover;
+}
+
+.container {
+  display: flex;
+  background-color: black;
+  justify-content: space-between;
+  align-content: center;
+  height: 50px;
+  max-width: 1235px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 50;
+}
+
+.logo {
+  width: 100px;
+  padding: 0 10px;
+  margin-top: 0;
+  height: 50px;
+}
+
+.company-logo {
+  width: 80px;
+  background-color: white;
+  align-items: flex-start;
+}
+
+.items {
+  display: flex;
+  gap: 15px;
+  justify-content: space-between;
+  align-items: center;
+  padding: 18px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  color: blue;
+}
+
+.introduction {
+  top: 140px;
+  position: relative;
+  padding: 0 10px;
+}
+
+.info {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: blue;
+  border-radius: 10px;
+  margin-top: 10px;
+  padding: 10px;
+  color: white;
+  font-weight: bold;
+}
+
+.welcome {
+  text-align: center;
+  color: white;
+  font-weight: bold;
+}
+
+.note ul a {
+  color: white;
+  font-weight: 900;
+  justify-content: center;
+  align-items: center;
+  line-height: 30px;
+}
+.note ul a:hover {
+  color: blue;
+  font-weight: 900;
+}
+
+.note {
+  position: relative;
+  top: 140px;
+  padding: 10px 20px;
+  justify-content: space-around;
+  align-content: center;
+}
+.f1 {
+  position: fixed;
+  z-index: 10;
+  top: 0;
+  left: 0;
+  background-color: black;
+  padding: 30px;
+  max-width: 1235px;
+  margin-left: 50px;
+  border-radius: 20px;
+  align-items: center;
+}
+.select {
+  display: flex;
+  gap: 35px;
+  max-width: 1200px;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+.main-note {
+  top: 300px;
+}
+h3 {
+  background-color: aqua;
+  color: black;
+  padding: 10px;
+  margin: 10px;
+  font-weight: bolder;
+  border-radius: 30px;
+  text-align: center;
+}
+
+.indices {
+  display: flex;
+  gap: 20px;
+  justify-content: space-around;
+  align-content: center;
+}
+.indices-embed {
+  display: flex;
+  gap: 20px;
+  justify-content: space-around;
+}
+
+.venn {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  align-content: center;
+}
+.log1 {
+  display: flex;
+  gap: 20px;
+  justify-content: space-around;
+}
+.log-table {
+  display: flex;
+  gap: 20px;
+  justify-content: space-around;
+}
+.i {
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
+  color: blue;
+  font-size: x-large;
+  top: 0;
+}
+
+.a1 {
+  background-color: rgb(226, 237, 19);
+  padding: 20px;
+  border-radius: 20px;
+  line-height: 20px;
+}
+
+.a2 {
+  background-color: pink;
+  padding: 20px;
+  border-radius: 20px;
+  line-height: 20px;
+}
+
+.a3 {
+  background-color: lightgreen;
+  padding: 20px;
+  border-radius: 20px;
+  line-height: 20px;
+}
+.a4 {
+  background-color: lightskyblue;
+  padding: 20px;
+  border-radius: 20px;
+  line-height: 20px;
+}
+.a5 {
+  background-color: yellow;
+  padding: 20px;
+  border-radius: 20px;
+  line-height: 20px;
+}
+.a6 {
+  background-color: lightgray;
+  padding: 20px;
+  border-radius: 20px;
+  line-height: 20px;
+}
+.a7 {
+  background-color: greenyellow;
+  padding: 20px;
+  border-radius: 20px;
+  line-height: 20px;
+}
+.a8 {
+  background-color: rgb(178, 23, 119);
+  padding: 20px;
+  border-radius: 20px;
+  line-height: 20px;
+  color: white;
+}
+.variation {
+  display: flex;
+  gap: 20px;
+  justify-content: space-around;
+  align-items: center;
+}
+.exercise {
+  background-color: white;
+  border-radius: 20px;
+  line-height: 20px;
+  top: 250px;
+  position: relative;
+  padding: 10px 20px;
+  justify-content: space-around;
+  align-content: center;
+  margin: 20px;
+}
+.footer {
+  position: relative;
+  top: 250px;
+  padding: 20px;
+  margin: 20px;
+  text-align: center;
+  color: white;
+  font-weight: bolder;
+}
+.follow {
+  display: flex;
+  gap: 20px;
+  align-content: center;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+h2 {
+  color: yellow;
+  font-weight: bolder;
+}
+
+.fa-facebook {
+  color: blue;
+}
+.fa-whatsapp {
+  color: green;
+}
+
+@media (max-width: 768px) {
+  .main-scheme {
+    flex-direction: column;
+  }
+
+  .indice-embed {
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+  }
+  .venn {
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+  }
+  .indices-embed {
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+  }
+  .log1 {
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+  }
+  .log-table {
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+  }
+  .select {
+    display: grid;
+    grid-template-columns: repeat(2, 250px);
+    gap: 0;
+    max-width: 768px;
+  }
+  .f1 {
+    margin-left: 0;
+  }
+  .introduction {
+    top: 210px;
+  }
+  .main-note {
+    position: relative;
+    top: 100px;
+  }
+  .variation {
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+  }
+}
+@media (max-width=576px) {
+  .select {
+    display: grid;
+    grid-template-columns: repeat(2, 150px);
+    gap: 0;
+    max-width: 576px;
+  }
+  .company-logo {
+    width: 70px;
+  }
+
+  .items {
+    gap: 5px;
+  }
+  .container {
+    justify-content: center;
+    padding-right: 10px;
+  }
+
+  .logo {
+    padding-left: 0;
+  }
+}
